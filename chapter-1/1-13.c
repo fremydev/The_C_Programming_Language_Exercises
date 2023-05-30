@@ -1,15 +1,12 @@
 #include <stdio.h>
 
 #define SIZE 9
-#define IN 1
-#define OUT 0
 
 /* histogram of words length */
 
 main() {
-	int c,state, i, j, count, lengths[SIZE];	
+	int c, i, j, count, lengths[SIZE];	
 
-	state = OUT;
 	count = 0;
 	for (i = 0; i < SIZE; ++i)
 		lengths[i] = 0;
@@ -24,7 +21,6 @@ main() {
 		}
 		else 
 			++count;	
-
 
 	printf("Horizontal Histogram\n");
 	for (i = 1; i < SIZE; ++i) {
