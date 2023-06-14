@@ -19,7 +19,6 @@ void isbalanced(char line[]);
 void printinfo(void);
 
 int main(void) {
-	int c;
 	char line[MAXSIZE];
 
 	extern int leftbracket;
