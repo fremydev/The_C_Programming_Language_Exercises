@@ -66,3 +66,16 @@
 ### Exercise 3-4. In a two's complement number representation, our version of itoa does not handle the largest negative number, that is, the value of n equal to -(2^wordsize-1). Explain why not. Modify it to print the value correctly, regardless of the machine on which it runs.
 ### Exercise 3-5. Write the functions itob(n,s,b) that converts the integer n into a base b character representation in the string s. In particular, itob(n, s, 16) format n as a hexadecimal integer in s.
 ### Exercise 3-6. Write a version of itoa that accepts three arguments instead of two. The third argument is a minimum field width; the converted number must be padded with blanks on the left if necessary to make it wide enough.
+
+## Chapter 4. Functions and Program Structure
+
+### Exercise 4-1. Write the function strindex(s, t) which returns the position of the rightmost occurrence of t in s. Or -1 if there is none.
+
+### Exercise 4-2. Extend atof to handle scientific notation form.
+
+### Exercise 4-3. Given the basic framework, it's straightforward to extend the calculator. Add the % modulus operator and provisions for negative numbers.
+
+### Exercise 4-12. Adapt the ideas of printd to write a recursive version of itoa; that is, convert an integer into a string by calling a recursive routine. 
+### Exercise 4-13. Write a recursive version of the functions reverse(s), which reverses the string s in place.
+
+### Exercise 4-14. Define a macro swap(t, x, y) that interchanges two arguments of type t.
