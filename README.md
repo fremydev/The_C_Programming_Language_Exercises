@@ -79,3 +79,8 @@
 ### Exercise 4-13. Write a recursive version of the functions reverse(s), which reverses the string s in place.
 
 ### Exercise 4-14. Define a macro swap(t, x, y) that interchanges two arguments of type t.
+
+## Chapter 5. Pointers and Arrays
+
+### 5-1. As written, getint treats a + or - not followed by a digit as a valid representation of zero. Fix it to push such a character back on the input.
+### 5-2. Write getfloat, the floating-point analog of getint. What type does getfloat return as its function value?
