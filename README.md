@@ -89,3 +89,5 @@
 ### 5-4. Write the function strend(s,t), which returns 1 if the string t occurs at the end of the string s, and zero otherwise.
 ### 5-5. Write versions of the library functions strncpy, strncat, and strncmp, which operate on at most the first n characters of their argument strings. For example, strncpy(s, t, n) copies at most n characters of t to s.
 ### 5-6. Rewrite appropriate programs from earlier chapters and exercises with pointers instead of array indexing. Good possibilities include getline, atoi, itoa, and their variants, reverse, and strindex and getop.
+
+### 5-7. Rewrite readlines to store lines in an array suplied by main, rather than calling alloc to maintain storage. How much faster is ther program?
